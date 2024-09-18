@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Join Now - FitLife</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="brand">FitLife</div>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="features.html">Features</a>
+        <a href="personalized-workout-plans.html">Personalized Workout Plans</a>
+        <a href="nutrition-tracking.html">Nutrition Tracking</a>
+        <a href="community-support.html">Community Support</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="join-now.html">Join Now</a>
+      </div>
+    </header>
+
+    <section class="join-now">
+      <div class="container">
+        <h1>Join FitLife</h1>
+        <p>
+          Sign up to become a part of our community and start your fitness
+          journey with us!
+        </p>
+
+        <div class="join-form">
+          <form action="/submit-join" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required />
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required />
+
+            <label for="goal">Fitness Goal:</label>
+            <textarea id="goal" name="goal" rows="4" required></textarea>
+
+            <button type="submit">Join Now</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 FitLife. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

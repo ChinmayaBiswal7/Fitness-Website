@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - FitLife</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="brand">FitLife</div>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="features.html">Features</a>
+        <a href="personalized-workout-plans.html">Personalized Workout Plans</a>
+        <a href="nutrition-tracking.html">Nutrition Tracking</a>
+        <a href="community-support.html">Community Support</a>
+        <a href="contact.html">Contact Us</a>
+      </div>
+    </header>
+
+    <section class="contact-us">
+      <div class="container">
+        <h1>Contact Us</h1>
+        <p>
+          We'd love to hear from you! Whether you have questions, feedback, or
+          need assistance, feel free to reach out to us using the contact form
+          below or through our contact details.
+        </p>
+
+        <div class="contact-details">
+          <h2>Our Contact Information</h2>
+          <ul>
+            <li>
+              <strong>Email:</strong>
+              <a href="mailto:support@fitlifeapp.com">support@fitlifeapp.com</a>
+            </li>
+            <li><strong>Phone:</strong> +1 (800) 123-4567</li>
+            <li>
+              <strong>Address:</strong> 123 FitLife Lane, Wellness City, CA,
+              90001
+            </li>
+          </ul>
+        </div>
+
+        <div class="contact-form">
+          <h2>Send Us a Message</h2>
+          <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required />
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+
+        <div class="map">
+          <h2>Our Location</h2>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.846384509887!2d-122.4177786846812!3d37.77492977975999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808efc0d6b77%3A0x0000000000000000!2s123%20FitLife%20Lane%2C%20San%20Francisco%2C%20CA%209001!5e0!3m2!1sen!2sus!4v1677204733393!5m2!1sen!2sus"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 FitLife. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
